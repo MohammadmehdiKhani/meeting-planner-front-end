@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.parent-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-div{
+  display: inline-block;
+  position:absolute;
+  top: 25%;
+  left:auto;
+}
+
+.card-style{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 0px 0px 9px 0px #b1b1b1;
+}
+
+
+.login-form{
+  margin: 30px;;
+}
+
+.register-form{
+  margin: 30px;;
+}
+
+.login-heading{
+  font-family:sans-serif;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.label-text{
+ display: flex; 
+}
+
+.login-submit-button{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.register-container{
+  justify-content: center;
+  align-self: center;
+}
+
+.event-type-duration
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hour-col
+{
+  padding-right: 10px; 
+}
+
+.minute-col
+{
+  padding-left: 10px;
+}
+
+.google-meet-card-text
+{
+  padding: 10px;
+}
+
+.apoinment-card-address-input
+{
+  padding: 10px;
+}
+
+.label-of-event-setup-form-input
+{
+  font-weight: bold;
+}
+
+.appending-hour-minute-label
+{
+  border-bottom-left-radius: 0% !important;
+  border-top-left-radius: 0px !important;
+}
+
+.message-box
+{
+  height: 100px;
+}
+
+.appending-base-url-label
+{
+  border-bottom-right-radius: 0% !important;
+  border-top-right-radius: 0px !important;
+}
+
+.save-btn-of-event-setup
+{
+  background-color: #0c6 !important;
+  border-color: #0c6 !important ;
+  align-self: flex-start;
+  margin-right: 5px;
+}
+
+.text-inside-save-btn-and-reset-btn
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btns-row-of-save-and-quit-of-event-setup
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.quit-btn-of-event-setup
+{
+  align-self: flex-start;
+}
+
+.dropdown-meeting-type-logo
+{
+  max-width: 30px;
+ margin-right: 10px;
+}
+
+.header-of-card
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-card-icon
+{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.delete-card-icon:hover
+{
+  transform: scale(0.9);
+}
+
+.side-bar-col
+{
+  margin-top: 30px !important;
+}
+
+.sidebar-icon
+{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.choosed
+{
+  transform: scale(1.1);
+  background-color: rgb(241, 241, 241);
+  border-radius: 30px;
+}
+
+.mytext
+{
+  color: gray;
+}
+
+.mytext:hover
+{
+  color: black;
+}
+
+.choosed .mytext
+{
+  color: black;
+  font-size: large;
+}
+
+.full-width
+{
+  width: 100%;
+}
+
+.unavailable-day
+{
+  color: #b1b1b1;
+}
+
+.bold-text
+{
+  font-weight:600;
+}
+
+.avalable-times-text 
+{
+  font-weight: 800;
+}
+
+.exeptional-times-text
+{
+  font-weight: 800;
+}
+
+#exeptonal-times-btn
+{
+  background-color: white !important;
+  border-color: #0c6 !important ;
+  margin-right: 5px;
+}
+
+#exeptonal-times-btn:hover
+{
+  background-color: #0c6 !important;
+  border-color: #0c6 !important ;
+  margin-right: 5px;
+}
+
+#text-inside-exeptional-times-btn
+{
+ color: #0c6 !important ;
+}
+
+#exeptonal-times-btn:hover > #text-inside-exeptional-times-btn {
+  color:white !important ;
+}
+
+.plus-icon
+{
+  width: 25px;
+  height: 25px;
+}
+
+.plus-btn
+{
+  display: flex;
+  align-items: center
+}
+
+.saturday-row
+{
+  display: flex;
+  justify-content:center;
+}
+
+.stick-to-right
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hey
+{
+  margin-left: 10px;
+}
+
+.myRow
+{
+  display: flex;
+  align-items: center;
+}
+
+.dash-between-time-pickers
+{
+  margin-right: 10px;
+}
+
+.myInputGroup
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.popup {  
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5);  
+}  
+.popup_open {  
+  position: absolute;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+  bottom: 25%;  
+  margin: auto;  
+  border-radius: 20px;  
+  background: white;  
+}
+
+.myDiv
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.secondDiv
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thirdDiv
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+.number4Div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+  max-width: 350px;
+  margin-right: 10px;
+}
+
+.myBtn
+{
+  margin-right: 5px;
+}
+
+.new-exeptional-time-label
+{
+  margin-left: 10px;
+  font-weight: 1000;
+}
+
+.close-icon
+{
+  margin-right: 10px;
+}
+
+.green-plus
+{
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.green-plus:hover
+{
+  transform: scale(0.9);
+}
+
+.hooou
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.haaaa
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
